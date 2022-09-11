@@ -746,9 +746,9 @@ global.dfail = async (type, m, conn) => {
         nsfw: 'NSFW tidak aktif, Silahkan hubungi Team Bot Discussion untuk mengaktifkan fitur ini!',
         rpg: 'RPG tidak aktif, Silahkan hubungi Team Bot Discussion Untuk mengaktifkan fitur ini!',
         restrict: 'Fitur ini di *disable*!'
-    /*}[type]
-    if (msg) return conn.reply(m.chat, msg, m, { mentions: conn.parseMention(msg) })*/
     }[type]
+    if (msg) return conn.reply(m.chat, msg, m, { mentions: conn.parseMention(msg) })
+    /*}[type]
     if (msg) return conn.sendButtonDoc(m.chat, msg, wmo, 'Menu', '.menu', m, {
   mentions: conn.parseMention(msg),
   contextInfo: { externalAdReply :{
@@ -761,7 +761,7 @@ global.dfail = async (type, m, conn) => {
     sourceUrl: gc
      }}
   })
-}
+}*/
 
 let fs = require('fs')
 let chalk = require('chalk')
