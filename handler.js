@@ -31,17 +31,17 @@ module.exports = {
         global.img = 'https://telegra.ph/file/1d18801d43ebd98f57d32.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = 's-'
-        global.author = '   � 2022'
+        global.packname = 'ʟᴜᴍɪɴᴏᴜs-ᴍᴅ'
+        global.author = 'ᴍᴀᴅᴇ ʙʏ ʜᴀɴ © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 's � 2022'
-        global.wm3 = '�s '
-        global.wm2 = 's-' + ' ' + ' '
-        global.wm = 's-'
-        global.colong1 = 's- '
+        global.author2 = 'ʟᴜᴍɪɴᴏᴜs © 2022'
+        global.wm3 = '·ʟᴜᴍɪɴᴏᴜs ロボット'
+        global.wm2 = 'ʟᴜᴍɪɴᴏᴜs-ʙᴏᴛ' + ' ' + 'ʙʏ ʀᴀʏʜɴ'
+        global.wm = 'ʟᴜᴍɪɴᴏᴜs-ʙᴏᴛ'
+        global.colong1 = 'ʟᴜᴍɪɴᴏᴜs-ᴍᴅ ʙʏ'
         global.colong2 = 'Han Kontak Owner\n\n\n\n\n[62895627514070] :v'
         global.kontak2 = [
-        ['62895627514070', '', 'Creator Bot', 'Rayhn@support.com', true],
+        ['62895627514070', 'ʜᴀɴ', 'Creator Bot', 'Rayhn@support.com', true],
         ['6281779211748', '', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
@@ -776,18 +776,18 @@ fs.watchFile(file, () => {
 
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    let res = "Selamat malam 🌙"
+    let res = "Selamat malam ð"
     if (time >= 4) {
-        res = "Selamat pagi 🌄"
+        res = "Selamat pagi ð"
     }
     if (time > 10) {
-        res = "Selamat siang ☀️"
+        res = "Selamat siang âï¸"
     }
     if (time >= 15) {
-        res = "Selamat sore 🌅"
+        res = "Selamat sore ð"
     }
     if (time >= 18) {
-        res = "Selamat malam 🌙"
+        res = "Selamat malam ð"
     }
     return res
 }
